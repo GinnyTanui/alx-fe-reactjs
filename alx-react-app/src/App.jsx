@@ -7,7 +7,7 @@ import UserProfile from "./UserProfile.jsx";
 function App() {  
   return( 
     <> 
-    <WelcomeMessage/> 
+    <WelcomeMessage /> 
     <Header/> 
     <MainContent/> 
     <Footer/> 
