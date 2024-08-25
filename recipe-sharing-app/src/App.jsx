@@ -4,8 +4,8 @@ import RecipeDetails from "./components/RecipeDetails";
 import AddRecipeForm from "./components/AddRecipeForm"; 
 import RecipeList from "./components/RecipeList"; 
 import SearchBar from "./components/SearchBar"; 
-import FavoriteList from "./components/FavoriteList"; 
-import RecommendationList from "./components/RecommendationList";
+import FavoriteList from "./components/FavoritesList"; 
+import RecommendationList from "./components/RecommendationsList";
 
 function App() {
  
