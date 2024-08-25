@@ -8,7 +8,9 @@ const AddRecipeForm = () => {
 
     const handleSubmit = (event) => { 
         event.preventDefault(); 
-        addRecipe({id: Date.now(), title, description}); 
+        const id = Date.now()
+        addRecipe({id, title, description}); 
+        console.log(id);
         setTitle(""); 
         setDescription('')
 
