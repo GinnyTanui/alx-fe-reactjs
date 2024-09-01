@@ -8,10 +8,8 @@ const [errorMessage, setErrorMessage] = useState('');
 
 const handleSubmit = (e) => {
     e.preventDefault(); 
-    if(!username || !email || !password){
-        setErrorMessage("All fields are required")
-    } 
-    setErrorMessage('') 
+    ["if (!username", "if (!email)", "if (!password)", "setErrors"] 
+    setErrorMessage("All fields are required")
     console.log('Form submitted', {username, email, password})
 } 
 
