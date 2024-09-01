@@ -1,18 +1,18 @@
 import React from "react"; 
 import { useState } from "react"; 
 function RegistrationForm(){
-    const [userName, setUserName] = useState(''); 
+    const [username, setUserName] = useState(''); 
 const [email, setEmail] = useState('');
 const [password, setPassword] = useState(''); 
 const [errorMessage, setErrorMessage] = useState(''); 
 
 const handleSubmit = (e) => {
     e.preventDefault(); 
-    if(!userName || !email || !password){
+    if(!username || !email || !password){
         setErrorMessage("All fields are required")
     } 
     setErrorMessage('') 
-    console.log('Form submitted', {userName, email, password})
+    console.log('Form submitted', {username, email, password})
 } 
 
 return(
@@ -21,7 +21,7 @@ return(
         <form onSubmit={handleSubmit}> 
             <div>
                 <label>Username:</label> 
-                <input type="text" value={userName} onChange={(e) => {
+                <input type="text" value={username} onChange={(e) => {
                     setUserName(e.target.value)
                 }}required/>
             </div> 
