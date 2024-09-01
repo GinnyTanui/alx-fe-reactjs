@@ -4,7 +4,8 @@ import Profile from './components/Profile'
 import ProfileDetails from './components/ProfileDetails' 
 import ProfileSettings from './components/ProfileSettings' 
 import UserProfile from './components/UserProfile'
-import ProtectedRoute from './components/ProtectedRoute'
+import ProtectedRoute from './components/ProtectedRoute' 
+["/blog/:id", "BlogPost"]
 function App() {
   
 
