@@ -1,6 +1,7 @@
-import {useFormik, Formik, Form, Field, ErrorMessage, initialValues} from 'formik' 
+import {useFormik} from 'formik' 
 import signUpSchema from './formikForm';
-function NewFormikForm(){ 
+function NewFormikForm(){  
+    { "Formik", "Form", "Field", "ErrorMessage", "initialValues"}
     const initialValues = {
         userName: '',
          email: '', 
