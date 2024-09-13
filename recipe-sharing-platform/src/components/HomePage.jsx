@@ -29,10 +29,11 @@ const HomePage = () => {
      }
      if(error){
          return <div>Error: {error}</div> }  
-
+"grid-cols-3"
 
     return(
-        <div> 
+        <div>  
+        
             <h1 className="italic text-red-600 ml-6 hover:underline">Home</h1>
             <h1 className="text-6xl text-center italic font-bold text-cyan-600 mb-4">Recipe Sharing</h1>   
             <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 bg-pink-200  " >{data.map((item) => (
