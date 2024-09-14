@@ -38,7 +38,7 @@ const RecipeDetail = () => {
   return (
     <div className='p-6 bg-pink-100'>
         <h1 className='text-4xl font-bold mb-4 italic text-cyan-600 hover:underline '>{recipe.title}</h1> 
-        <img src={recipe.imageUrl} alt={recipe.title} className=' h-64 object-cover rounded-lg mb-4'/> 
+        <img src={recipe.imageUrl} alt={recipe.title} className=' h-64 object-cover rounded-lg mb-4 shadow-md hover:shadow-xl'/> 
         <p className=' text-lg mb-4 italic' >{recipe.summary}</p> 
         <h2 className='text-2xl font-bold mb-2 text-red-500 italic'>Ingredients:</h2> 
         <ul className='list-disc list-inside mb-4'> 
