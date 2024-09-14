@@ -1,13 +1,22 @@
-import HomePage from "./components/HomePage"
-
+import HomePage from "./components/HomePage"; 
+import RecipeDetail from "./components/RecipeDetail";
+import {BrowserRouter as Router,Routes,Route,Link} from 'react-router-dom';
 function App() {
   
 
-  return (
-    <>
+  return ( 
+   
+    <> 
+   
      
-     <HomePage/>
-    </>
+     <Router>
+       <Routes> 
+        <Route path ='/' element={<HomePage/>}/>
+        <Route path='/recipe/:id' element={<RecipeDetail/>}/>
+         
+       </Routes>
+     </Router> 
+    </> 
   )
 }
 
