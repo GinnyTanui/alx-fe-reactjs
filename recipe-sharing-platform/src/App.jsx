@@ -10,12 +10,7 @@ function App() {
    
      
      <Router> 
-      <nav>
-        <ul>
-          <Link to='/'>Home</Link> 
-         
-        </ul>
-      </nav>
+      
        <Routes> 
         <Route path ='/' element={<HomePage/>}/>
         <Route path='/recipe/:id' element={<RecipeDetail/>}/>
