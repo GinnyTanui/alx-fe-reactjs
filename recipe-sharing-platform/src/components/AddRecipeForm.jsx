@@ -27,7 +27,7 @@ const AddRecipeForm = ({addRecipe}) => {
     return(
         <form onSubmit={handleSubmit} className='max-w-lg mx-auto p-4 bg-white shadow-md rounded-lg'> 
         <div className='mb-4'> 
-            <label htmlFor='title' className='block text-gray-700'>Recipe Title:</label> 
+            <label htmlFor='title' className='block text-gray-700 font-bold'>Recipe Title:</label> 
             <input type='text' id='title' name='title' value={formData.title} onChange={handleChange} className='w-full px-3 py-2 border rounded-lg' required/>
              
         </div> 
