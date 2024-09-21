@@ -42,7 +42,7 @@ const SearchUsers = () => {
                     <div>
                         <h2>Github User Information</h2>  
                         <img src={userData.avatar_url} /> 
-                        <p>Username:{userData.id}</p> 
+                        <p>Username:{userData.login}</p> 
                         <p>Profile: <a href={userData.html_url} target="blank" rel="noopener noreferrer">View profile</a></p>
                     </div>
                 )
